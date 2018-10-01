@@ -3,7 +3,7 @@ body {
 }
 
 .menu{
-    
+    float: left;
 }
 
 .grid div img{
@@ -41,4 +41,10 @@ img{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+}
+
+ul li{
+    list-style-type: none;
+    float: left;
+    padding: 0em 1em;
 }
