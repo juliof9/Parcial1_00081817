@@ -1,9 +1,28 @@
 body {
     background-color: #000000;
+    margin: 5%;
 }
 
 .menu{
     float: left;
+}
+
+.fondo{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fondo img{
+    width: auto;
+    height: 500px;
 }
 
 .grid div img{
@@ -21,7 +40,10 @@ body {
 img{
     width: 150px;
     height: 150px;
+    
 }
+
+
 
 .grid{
     display: grid;
@@ -47,4 +69,8 @@ ul li{
     list-style-type: none;
     float: left;
     padding: 0em 1em;
+}
+
+icons i{
+    color: #f5f5f5;
 }
